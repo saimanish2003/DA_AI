@@ -5,7 +5,7 @@ import requests
 import os
 
 # Load API key from environment variable
-TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY") or "07a2f30bd92046f2c2abbc45fed7ae94aab75180d54dcc8cb4c7a49efbae4e1a"
+TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY") or ""
 
 def ask_together_for_filter(prompt):
     headers = {
